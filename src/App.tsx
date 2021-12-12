@@ -1,9 +1,9 @@
-import { SignUp } from "./pages/SignUp";
+import { AppRoutes } from "./routes";
 import { GlobalStyle } from "./styles/global";
 function App() {
   return (
     <>
-    <SignUp />
+    <AppRoutes />
    <GlobalStyle />
    </>
   );
