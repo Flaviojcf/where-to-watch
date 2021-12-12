@@ -1,5 +1,5 @@
 import { Content, Container} from './styles'
-import { SignIn } from '../SignIn'
+import { SignIn } from '../../pages/SignIn'
 
 export function Header() {
     return (
