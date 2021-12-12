@@ -1,11 +1,9 @@
-import { SignIn } from "./components/SignIn";
-import { SignUp } from "./pages/SignUp";
+import { AppRoutes } from "./routes";
 import { GlobalStyle } from "./styles/global";
 function App() {
   return (
     <>
-    <SignIn />
-    <SignUp />
+    <AppRoutes />
    <GlobalStyle />
    </>
   );
