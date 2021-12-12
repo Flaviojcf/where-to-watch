@@ -1,7 +1,11 @@
+import { SigInButton } from "./components/SignIn/signIN";
+import { GlobalStyle } from "./styles/global";
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+    <SigInButton />
+   <GlobalStyle />
+   </>
   );
 }
 
