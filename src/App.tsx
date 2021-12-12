@@ -1,9 +1,9 @@
-import { SigInButton } from "./components/SignIn/signIN";
+import { SignIn } from "./components/SignIn";
 import { GlobalStyle } from "./styles/global";
 function App() {
   return (
     <>
-    <SigInButton />
+    <SignIn/>
    <GlobalStyle />
    </>
   );

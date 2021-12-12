@@ -1,6 +1,6 @@
 import {Container} from './styles'
 
-export function SigInButton(){
+export function SignIn(){
     return (
         <Container>
                 <div>
